@@ -1,0 +1,12 @@
+name: opengate_env
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - polars
+  - ipykernel
+  - parallelproj
+  - libparallelproj
+  - cupy
+  - numba
+prefix: /home/h/miniconda3/envs/opengate_env
