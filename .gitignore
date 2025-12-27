@@ -1,0 +1,17 @@
+cat << 'EOF' >> .gitignore
+# Simulation outputs
+*.root
+*.npy
+*.npz
+*.parquet
+
+# Visualization
+*.wrl
+*.nii
+*.nii.gz
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+EOF
